@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=1280, user-scalable=yes" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme:{screens:{sm:'1px',md:'1px',lg:'1px',xl:'1px','2xl':'1px'},extend: { "colors": { "status-delivered": "#10B981", "primary-container": "#007bb9", "tertiary": "#006387", "status-alert": "#EF4444", "surface": "#FFFFFF", "on-secondary-fixed": "#001d33", "text-primary": "#0F172A", "status-transit": "#F97316", "error": "#ba1a1a", "on-surface-variant": "#3f4850", "on-secondary": "#ffffff", "on-primary-fixed-variant": "#004b73", "secondary-container": "#00a2fd", "surface-bright": "#f8f9ff", "surface-tint": "#006398", "on-primary": "#ffffff", "primary": "#006194", "on-primary-container": "#fdfcff", "outline": "#707881", "on-primary-fixed": "#001d31", "on-tertiary-fixed-variant": "#004c69", "primary-fixed": "#cce5ff", "inverse-primary": "#93ccff", "on-surface": "#0b1c30", "on-error": "#ffffff", "error-container": "#ffdad6", "text-secondary": "#475569", "on-tertiary-container": "#fcfcff", "on-background": "#0b1c30", "secondary-fixed": "#cfe5ff", "inverse-on-surface": "#eaf1ff", "on-error-container": "#93000a", "background": "#f8f9ff", "surface-container": "#e5eeff", "primary-fixed-dim": "#93ccff", "secondary": "#00629d", "surface-container-highest": "#d3e4fe", "outline-variant": "#bfc7d2", "secondary-fixed-dim": "#98cbff", "surface-container-lowest": "#ffffff", "on-secondary-fixed-variant": "#004a77", "status-warning": "#F59E0B", "tertiary-container": "#007da9", "bg-tint": "#F0F9FF", "on-tertiary": "#ffffff", "surface-dim": "#cbdbf5", "surface-variant": "#d3e4fe", "surface-container-high": "#dce9ff", "tertiary-fixed": "#c4e7ff", "inverse-surface": "#213145", "tertiary-fixed-dim": "#7bd0ff", "surface-container-low": "#eff4ff", "on-tertiary-fixed": "#001e2c", "border-subtle": "#E2E8F0", "bg-canvas": "#F8FAFC", "on-secondary-container": "#003558" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "space-md": "1rem", "space-xl": "2.5rem", "gutter": "1.5rem", "margin-mobile": "1rem", "margin": "2rem", "gutter-mobile": "1rem", "space-xs": "0.25rem", "space-lg": "1.5rem" }, "fontFamily": { "headline-lg-mobile": ["Plus Jakarta Sans"], "display": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "display-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-lg": ["Inter"], "title-md": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "label-md": ["Plus Jakarta Sans"] }, "fontSize": { "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "display-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script><script>(function(){function f(){var w=document.documentElement.clientWidth||window.innerWidth;document.documentElement.style.zoom=(w&&w<1280)?(w/1280):1;}f();window.addEventListener('resize',f);window.addEventListener('orientationchange',f);document.addEventListener('DOMContentLoaded',f);})();</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_2px_8px_-2px_rgba(2,132,199,0.06)]"><div class="relative h-20 w-full px-gutter flex items-center justify-between"><a class="flex items-center" href="index.html"><img alt="SheFaro" class="h-6 w-auto object-contain" src="assets/images/logo.png"/></a><nav class="absolute left-1/2 -translate-x-1/2 flex items-center gap-space-xl"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" href="index.html">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" href="about.html">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" href="tracking.html">Tracking</a><a class="font-label-lg text-label-lg text-primary font-bold transition-colors" href="help.html">Help</a></nav><a class="inline-flex items-center justify-center px-space-lg py-space-sm rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-[0_4px_12px_rgba(2,132,199,0.25)] hover:bg-primary-container transition-all" href="login.html">Login</a></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="w-full py-16 lg:py-24 bg-surface relative overflow-hidden">
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-surface-container-high/40 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -right-32 w-80 h-80 rounded-full bg-primary-fixed/20 blur-3xl pointer-events-none"></div>
+<div class="max-w-6xl mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Column -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">SHEFARO SAHAYTA • CUSTOMER SUPPORT</span>
+</div>
+<h1 class="font-display text-display text-text-primary tracking-tight">
+            Need Help? <br class="hidden sm:inline"/>
+<span class="text-primary">We’re Here for You.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-text-secondary max-w-xl">
+            Whether you’re sending a personal parcel or managing business shipments, SheFaro support is here to help every step of the journey.
+          </p>
+<div class="flex flex-wrap items-center gap-4 pt-2 w-full sm:w-auto">
+<a class="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary-container transition-all" href="#contact">
+              Contact Support
+            </a>
+<a class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-all" href="tracking.html">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+<span>Track a Shipment</span>
+</a>
+</div>
+<div class="pt-4 flex items-center gap-3 text-text-secondary">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-status-delivered">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+<span class="font-body-sm text-body-sm font-medium">Average response within 15 mins • Multilingual Assistance</span>
+</div>
+</div>
+<!-- Right Column (Illustration) -->
+<div class="lg:col-span-5 flex flex-col items-center">
+<div class="w-full bg-surface-bright rounded-2xl p-4 shadow-sm">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-low flex items-center justify-center">
+<img class="w-full h-full object-cover rounded-xl" data-alt="Warm anime illustration of an Indian female customer support representative sitting at a bright wooden desk with laptop displaying SheFaro Support interface, on a phone call with a customer, sunlit cozy room with potted houseplants and delivery parcel box in foreground in soft sky blue and warm pastel palette" src="assets/images/help-1.jpg"/>
+<div class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded-full shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-status-delivered"></span>
+<span class="font-label-sm text-label-sm text-text-primary">Friendly Sahayta Assistance</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SAHAYTA SUPPORT CATEGORIES SECTION -->
+<section class="w-full py-20 bg-background" id="categories">
+<div class="max-w-6xl mx-auto px-6">
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-16 space-y-3">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">SUPPORT CATEGORIES</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Sahayta — SheFaro Support</h2>
+<p class="font-body-md text-body-md text-text-secondary">
+          Need help with a shipment, delivery issue or account? Our support team is available to assist you.
+        </p>
+</div>
+<!-- 4 Compact Support Category Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="bg-surface rounded-2xl p-6 shadow-sm hover:shadow-md transition-all flex flex-col items-start space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="font-title-md text-title-md text-text-primary">Shipment Support</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Get help with shipment booking, pickup, delivery or shipment status.
+          </p>
+<div class="pt-2 text-primary font-label-md text-label-md flex items-center gap-1">
+<span>Booking &amp; Dispatch</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface rounded-2xl p-6 shadow-sm hover:shadow-md transition-all flex flex-col items-start space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="font-title-md text-title-md text-text-primary">Tracking Help</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Use your AWB or Reference ID to track your shipment and check its latest status.
+          </p>
+<div class="pt-2 text-primary font-label-md text-label-md flex items-center gap-1">
+<span>AWB Lookup</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface rounded-2xl p-6 shadow-sm hover:shadow-md transition-all flex flex-col items-start space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="font-title-md text-title-md text-text-primary">Delivery &amp; NDR</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Need help with a delivery attempt or NDR? Contact our support team for assistance.
+          </p>
+<div class="pt-2 text-primary font-label-md text-label-md flex items-center gap-1">
+<span>NDR Re-attempt</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface rounded-2xl p-6 shadow-sm hover:shadow-md transition-all flex flex-col items-start space-y-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="font-title-md text-title-md text-text-primary">Returns</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Get support with return orders, return pickups and return delivery at reasonable rates.
+          </p>
+<div class="pt-2 text-primary font-label-md text-label-md flex items-center gap-1">
+<span>Reverse Pickup</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Feature Illustration & Breakdown Banner -->
+<div class="mt-16 bg-surface rounded-2xl overflow-hidden shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<div class="lg:col-span-5 h-64 lg:h-full bg-surface-container-low relative">
+<img class="w-full h-full object-cover" data-alt="Stylized anime-style digital vector illustration of a SheFaro domestic parcel box on a glowing podium with checklist graphics and a friendly courier assistant waving against clean light blue background" src="assets/images/help-2.jpg"/>
+</div>
+<div class="lg:col-span-7 p-8 lg:p-12 flex flex-col justify-center space-y-6">
+<div class="inline-flex items-center gap-2 text-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>DIRECT RESOLUTION ASSURANCE</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">
+              Proactive Tracking and Issue Management
+            </h3>
+<p class="font-body-md text-body-md text-text-secondary">
+              Our Sahayta operations bridge the gap between merchants, individual shippers, and field courier riders across India, ensuring no package stays stranded.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+<div class="bg-surface-bright rounded-xl p-4 flex flex-col">
+<span class="font-title-md text-title-md text-primary">Fast Resolution</span>
+<span class="font-body-sm text-body-sm text-text-secondary mt-1">Direct case escalation</span>
+</div>
+<div class="bg-surface-bright rounded-xl p-4 flex flex-col">
+<span class="font-title-md text-title-md text-primary">Dedicated Desk</span>
+<span class="font-body-sm text-body-sm text-text-secondary mt-1">Dedicated Sahayta agent</span>
+</div>
+<div class="bg-surface-bright rounded-xl p-4 flex flex-col">
+<span class="font-title-md text-title-md text-primary">Direct Courier</span>
+<span class="font-body-sm text-body-sm text-text-secondary mt-1">Live carrier sync</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CONTACT SHEFARO SECTION -->
+<section class="w-full py-20 bg-surface" id="contact">
+<div class="max-w-6xl mx-auto px-6">
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-16 space-y-3">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">DIRECT ASSISTANCE</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Contact SheFaro</h2>
+<p class="font-body-md text-body-md text-text-secondary">
+          Reach our dedicated team through verified official channels.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1: Phone Support -->
+<div class="bg-background rounded-2xl p-8 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="w-14 h-14 rounded-2xl bg-surface-container flex items-center justify-center text-primary">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-secondary">Phone Support</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mt-1">+91 94752 20019</h3>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary">
+              Available for shipment inquiries &amp; assistance across domestic routes.
+            </p>
+</div>
+<a class="w-full inline-flex items-center justify-center py-3 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-primary-container transition-all" href="tel:+919475220019">
+            Call Now
+          </a>
+</div>
+<!-- Card 2: Email Support -->
+<div class="bg-background rounded-2xl p-8 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="w-14 h-14 rounded-2xl bg-surface-container flex items-center justify-center text-primary">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-secondary">Email Support</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mt-1">help@shefaro.in</h3>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary">
+              Expect a detailed response within 24 hours from our operations desk.
+            </p>
+</div>
+<a class="w-full inline-flex items-center justify-center py-3 rounded-full bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-all" href="mailto:help@shefaro.in">
+            Send Email
+          </a>
+</div>
+<!-- Card 3: Office -->
+<div class="bg-background rounded-2xl p-8 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="w-14 h-14 rounded-2xl bg-surface-container flex items-center justify-center text-primary">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-text-secondary">Registered Office</span>
+<h3 class="font-title-md text-title-md text-text-primary mt-1 leading-snug">Duttapulia, Ranaghat-II, Nadia, West Bengal 741501</h3>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary">
+              Official headquarters and regional hub operations.
+            </p>
+</div>
+<div class="pt-2 text-text-secondary font-label-md text-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-status-delivered">verified</span>
+<span>Verified SheFaro Address</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- WHATSAPP UPDATES SECTION -->
+<section class="w-full py-20 bg-background">
+<div class="max-w-6xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Column -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary">
+<span class="material-symbols-outlined text-[16px] text-status-delivered">chat</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">AUTOMATED ALERTS</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">
+            Get Shipment Updates on WhatsApp
+          </h2>
+<p class="font-body-lg text-body-lg text-text-secondary">
+            SheFaro provides WhatsApp delivery updates so you can stay informed about your shipment without checking manual dashboards.
+          </p>
+<div class="space-y-4 w-full pt-2">
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center text-status-delivered mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-text-primary">
+                Instant notification when parcel is picked up &amp; dispatched
+              </p>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center text-status-delivered mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-text-primary">
+                Real-time out-for-delivery alert with courier details
+              </p>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center text-status-delivered mt-0.5">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-text-primary">
+                Zero spam, purely transactional shipment milestones
+              </p>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-bright flex items-center gap-3">
+<span class="material-symbols-outlined text-[20px] text-primary">info</span>
+<span class="font-body-sm text-body-sm text-text-secondary">
+              No registration required — updates are sent to the booking phone number.
+            </span>
+</div>
+</div>
+<!-- Right Column -->
+<div class="lg:col-span-5 flex flex-col items-center">
+<div class="w-full bg-surface rounded-2xl p-4 shadow-sm">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-low flex items-center justify-center">
+<img class="w-full h-full object-cover rounded-xl" data-alt="Anime style illustration of a young girl checking her phone showing automated WhatsApp parcel delivery notification with delivery van icon and checkmark, warm ambient living room setting" src="assets/images/help-3.jpg"/>
+<div class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded-full shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-status-delivered"></span>
+<span class="font-label-sm text-label-sm text-text-primary">Milestone updates on phone</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- COMMON QUESTIONS (FAQ ACCORDION) -->
+<section class="w-full py-20 bg-surface">
+<div class="max-w-4xl mx-auto px-6">
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-16 space-y-3">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">FAQ</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Common Questions</h2>
+<p class="font-body-md text-body-md text-text-secondary">
+          Quick answers to common questions about shipping, tracking, and courier partners.
+        </p>
+</div>
+<div class="space-y-4" id="faq-accordion">
+<!-- Q1 -->
+<details class="group bg-background rounded-2xl p-6 open:bg-surface-bright transition-all shadow-sm">
+<summary class="flex justify-between items-center font-title-md text-title-md text-text-primary cursor-pointer list-none">
+<span>How can I track my shipment?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 pt-3 border-t-0 font-body-md text-body-md text-text-secondary leading-relaxed">
+            Enter your AWB Number or Reference ID on the Tracking page to check your shipment status in real-time.
+          </div>
+</details>
+<!-- Q2 -->
+<details class="group bg-background rounded-2xl p-6 open:bg-surface-bright transition-all shadow-sm">
+<summary class="flex justify-between items-center font-title-md text-title-md text-text-primary cursor-pointer list-none">
+<span>What information do I need to contact support?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 pt-3 font-body-md text-body-md text-text-secondary leading-relaxed">
+            Keep your AWB Number or Reference ID ready when contacting SheFaro support. It helps our agents quickly identify your shipment and resolve queries.
+          </div>
+</details>
+<!-- Q3 -->
+<details class="group bg-background rounded-2xl p-6 open:bg-surface-bright transition-all shadow-sm">
+<summary class="flex justify-between items-center font-title-md text-title-md text-text-primary cursor-pointer list-none">
+<span>Can individuals send parcels through SheFaro?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 pt-3 font-body-md text-body-md text-text-secondary leading-relaxed">
+            Yes. SheFaro is designed for both individual shippers sending single parcels as well as businesses shipping at scale.
+          </div>
+</details>
+<!-- Q4 -->
+<details class="group bg-background rounded-2xl p-6 open:bg-surface-bright transition-all shadow-sm">
+<summary class="flex justify-between items-center font-title-md text-title-md text-text-primary cursor-pointer list-none">
+<span>What courier partners are available?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 pt-3 font-body-md text-body-md text-text-secondary leading-relaxed">
+            SheFaro currently supports Amazon, DTDC, Delhivery, Shadowfax, eKart and XpressBees. Blue Dart is planned as an upcoming courier partner.
+          </div>
+</details>
+<!-- Q5 -->
+<details class="group bg-background rounded-2xl p-6 open:bg-surface-bright transition-all shadow-sm">
+<summary class="flex justify-between items-center font-title-md text-title-md text-text-primary cursor-pointer list-none">
+<span>What shipment weight does SheFaro support?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 pt-3 font-body-md text-body-md text-text-secondary leading-relaxed">
+            SheFaro supports shipments starting from 500g up to 20kg across domestic express and standard lines.
+          </div>
+</details>
+</div>
+</div>
+</section>
+<!-- SUPPORTED COURIER NETWORK -->
+<section class="w-full py-20 bg-background">
+<div class="max-w-6xl mx-auto px-6">
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-12 space-y-3">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">PARTNER ECOSYSTEM</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Supported Courier Network</h2>
+<p class="font-body-md text-body-md text-text-secondary">
+          SheFaro brings multiple courier partners together so customers can manage shipments from one platform.
+        </p>
+</div>
+<!-- Partner Badges -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4">
+<div class="bg-surface rounded-2xl p-4 shadow-sm flex flex-col items-center justify-center space-y-2 text-center">
+<span class="font-title-md text-title-md text-text-primary">Amazon</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-status-delivered font-label-sm text-label-sm font-semibold">Active</span>
+</div>
+<div class="bg-surface rounded-2xl p-4 shadow-sm flex flex-col items-center justify-center space-y-2 text-center">
+<span class="font-title-md text-title-md text-text-primary">DTDC</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-status-delivered font-label-sm text-label-sm font-semibold">Active</span>
+</div>
+<div class="bg-surface rounded-2xl p-4 shadow-sm flex flex-col items-center justify-center space-y-2 text-center">
+<span class="font-title-md text-title-md text-text-primary">Delhivery</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-status-delivered font-label-sm text-label-sm font-semibold">Active</span>
+</div>
+<div class="bg-surface rounded-2xl p-4 shadow-sm flex flex-col items-center justify-center space-y-2 text-center">
+<span class="font-title-md text-title-md text-text-primary">Shadowfax</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-status-delivered font-label-sm text-label-sm font-semibold">Active</span>
+</div>
+<div class="bg-surface rounded-2xl p-4 shadow-sm flex flex-col items-center justify-center space-y-2 text-center">
+<span class="font-title-md text-title-md text-text-primary">eKart</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-status-delivered font-label-sm text-label-sm font-semibold">Active</span>
+</div>
+<div class="bg-surface rounded-2xl p-4 shadow-sm flex flex-col items-center justify-center space-y-2 text-center">
+<span class="font-title-md text-title-md text-text-primary">XpressBees</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-status-delivered font-label-sm text-label-sm font-semibold">Active</span>
+</div>
+<div class="bg-surface rounded-2xl p-4 shadow-sm flex flex-col items-center justify-center space-y-2 text-center">
+<span class="font-title-md text-title-md text-text-primary">Blue Dart</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">Coming Soon</span>
+</div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-body-sm text-body-sm text-text-secondary">
+          Courier partner availability is dynamically determined based on origin/destination pin codes.
+        </p>
+</div>
+</div>
+</section>
+<!-- STILL NEED HELP? (FINAL CTA SECTION) -->
+<section class="w-full py-20 bg-surface">
+<div class="max-w-6xl mx-auto px-6">
+<div class="bg-surface-bright rounded-3xl p-8 lg:p-12 shadow-sm relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<!-- Left Column -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-6">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">WE ARE READY</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Still Need Help?</h2>
+<p class="font-body-lg text-body-lg text-text-secondary max-w-lg">
+              Our support team is ready to help you with your shipment queries, pickup coordination, and route questions.
+            </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary-container transition-all" href="#contact">
+                Contact Support
+              </a>
+<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-surface text-primary font-label-lg text-label-lg hover:bg-surface-container transition-all shadow-sm" href="tracking.html">
+                Track Shipment
+              </a>
+</div>
+<div class="flex items-center gap-2 pt-2 text-text-secondary">
+<span class="material-symbols-outlined text-[18px] text-status-delivered">schedule</span>
+<span class="font-body-sm text-body-sm">Support desk response within 15 minutes during operating hours.</span>
+</div>
+</div>
+<!-- Right Column -->
+<div class="lg:col-span-5 flex flex-col items-center">
+<div class="w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container-low shadow-sm relative">
+<img class="w-full h-full object-cover" data-alt="Anime style illustration of a cheerful female SheFaro customer service support agent wearing blue vest with company logo badge and headset smiling warmly at front desk with a futuristic parcel tracking hologram screen" src="assets/images/help-4.jpg"/>
+<div class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded-full shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm text-text-primary">Dedicated SheFaro Representative</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_-2px_10px_-2px_rgba(2,132,199,0.04)]"><div class="w-full px-gutter py-space-xl"><div class="grid grid-cols-6 gap-space-xl mb-space-xl"><div class="col-span-2 space-y-space-md"><a class="inline-block" href="index.html"><img alt="SheFaro" class="h-8 w-auto object-contain" src="assets/images/logo.png"/></a><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Fast &amp; affordable multi-carrier shipping platform for individuals and businesses across India.</p><div class="space-y-space-xs pt-space-xs font-body-sm text-body-sm text-on-surface-variant"><p class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary mt-0.5">location_on</span><span>Duttapulia, Ranaghat-II, Nadia, West Bengal 741501</span></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary">call</span><a href="tel:+919475220019">+91 94752 20019</a></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary">mail</span><a href="mailto:help@shefaro.in">help@shefaro.in</a></p></div></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Company</h4><ul class="space-y-space-sm font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="index.html">Home</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="about.html">About</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Shipping</h4><ul class="space-y-space-sm font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="tracking.html">Tracking</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="signup.html">Send a Parcel</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Support</h4><ul class="space-y-space-sm font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="help.html">Help</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="help.html#contact">Contact</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Account &amp; Legal</h4><ul class="space-y-space-sm font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="login.html">Login</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="signup.html">Sign Up</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Terms</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Refund Policy</a></li></ul></div></div><div class="pt-space-lg flex items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2026 SheFaro. All Rights Reserved.</p><span class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px] text-status-delivered">verified_user</span>Multi-Carrier Reliability</span></div></div></footer></body></html>

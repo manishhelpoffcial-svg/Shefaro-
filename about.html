@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=1280, user-scalable=yes" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme:{screens:{sm:'1px',md:'1px',lg:'1px',xl:'1px','2xl':'1px'},extend: { "colors": { "on-error-container": "#93000a", "secondary": "#00629d", "surface-tint": "#006398", "tertiary-fixed": "#c4e7ff", "surface": "#FFFFFF", "status-warning": "#F59E0B", "error": "#ba1a1a", "text-primary": "#0F172A", "background": "#f8f9ff", "primary": "#006194", "tertiary-container": "#007da9", "surface-container-low": "#eff4ff", "surface-bright": "#f8f9ff", "on-background": "#0b1c30", "status-alert": "#EF4444", "border-subtle": "#E2E8F0", "status-transit": "#F97316", "primary-container": "#007bb9", "on-tertiary-container": "#fcfcff", "surface-container-lowest": "#ffffff", "on-surface-variant": "#3f4850", "on-primary-fixed": "#001d31", "tertiary-fixed-dim": "#7bd0ff", "on-primary-fixed-variant": "#004b73", "bg-tint": "#F0F9FF", "surface-container-high": "#dce9ff", "on-secondary-fixed": "#001d33", "secondary-container": "#00a2fd", "on-tertiary": "#ffffff", "inverse-on-surface": "#eaf1ff", "primary-fixed": "#cce5ff", "tertiary": "#006387", "outline-variant": "#bfc7d2", "on-secondary-container": "#003558", "on-error": "#ffffff", "on-primary": "#ffffff", "bg-canvas": "#F8FAFC", "surface-container": "#e5eeff", "secondary-fixed-dim": "#98cbff", "secondary-fixed": "#cfe5ff", "on-primary-container": "#fdfcff", "outline": "#707881", "primary-fixed-dim": "#93ccff", "on-tertiary-fixed-variant": "#004c69", "surface-variant": "#d3e4fe", "surface-container-highest": "#d3e4fe", "on-tertiary-fixed": "#001e2c", "status-delivered": "#10B981", "text-secondary": "#475569", "inverse-primary": "#93ccff", "surface-dim": "#cbdbf5", "on-surface": "#0b1c30", "on-secondary-fixed-variant": "#004a77", "on-secondary": "#ffffff", "inverse-surface": "#213145", "error-container": "#ffdad6" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter": "1.5rem", "space-lg": "1.5rem", "margin-mobile": "1rem", "space-xs": "0.25rem", "margin": "2rem", "gutter-mobile": "1rem" }, "fontFamily": { "label-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "label-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "display-mobile": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Inter"] }, "fontSize": { "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "display": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }] } } } };</script><script>(function(){function f(){var w=document.documentElement.clientWidth||window.innerWidth;document.documentElement.style.zoom=(w&&w<1280)?(w/1280):1;}f();window.addEventListener('resize',f);window.addEventListener('orientationchange',f);document.addEventListener('DOMContentLoaded',f);})();</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_2px_8px_-2px_rgba(2,132,199,0.06)]"><div class="relative h-20 w-full px-gutter flex items-center justify-between"><a class="flex items-center" href="index.html"><img alt="SheFaro" class="h-6 w-auto object-contain" src="assets/images/logo.png"/></a><nav class="absolute left-1/2 -translate-x-1/2 flex items-center gap-space-xl"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" href="index.html">Home</a><a class="font-label-lg text-label-lg text-primary font-bold transition-colors" href="about.html">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" href="tracking.html">Tracking</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" href="help.html">Help</a></nav><a class="inline-flex items-center justify-center px-space-lg py-space-sm rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-[0_4px_12px_rgba(2,132,199,0.25)] hover:bg-primary-container transition-all" href="login.html">Login</a></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Interactive Navigation State Setter -->
+<script>
+    (function() {
+      const activeNavItems = document.querySelectorAll('[data-path="about"]');
+      activeNavItems.forEach(el => {
+        el.classList.add('text-primary', 'font-bold');
+        el.classList.remove('text-on-surface-variant');
+      });
+    })();
+  </script>
+<!-- 1. HERO SECTION -->
+<section class="relative w-full overflow-hidden px-gutter py-space-xl">
+<div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-primary-fixed/40 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -left-20 w-80 h-80 rounded-full bg-tertiary-fixed/30 blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center relative">
+<div class="lg:col-span-7 flex flex-col items-start space-y-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary-fixed text-on-primary-fixed">
+<span class="material-symbols-outlined text-[16px] text-primary">local_shipping</span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase">ABOUT SHEFARO</span>
+</div>
+<h1 class="font-display text-display text-text-primary tracking-tight">
+          About SheFaro
+        </h1>
+<p class="font-headline-sm text-headline-sm text-primary max-w-2xl font-semibold">
+          Simple shipping and reliable logistics for individuals and businesses across India.
+        </p>
+<p class="font-body-lg text-body-lg text-text-secondary max-w-2xl leading-relaxed">
+          SheFaro is a modern multi-carrier shipping platform crafted to empower both solo senders and growing enterprises. Seamlessly book domestic consignments, select from top courier providers, track journeys with real-time accuracy, receive automated WhatsApp delivery updates, and manage NDR, RTO, and reverse logistics inside a unified, anxiety-free dashboard.
+        </p>
+<div class="pt-space-sm flex flex-wrap items-center gap-space-md w-full sm:w-auto">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-secondary transition-all" data-path="send-a-parcel" href="signup.html">
+<span>Send a Parcel</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-full bg-surface text-primary font-label-lg text-label-lg shadow-sm hover:bg-surface-container-low transition-all" data-path="tracking" href="tracking.html">
+<span class="material-symbols-outlined text-[18px]">share_location</span>
+<span>Track Shipment</span>
+</a>
+</div>
+<div class="grid grid-cols-3 gap-space-md pt-space-lg w-full max-w-lg">
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<p class="font-headline-md text-headline-md text-primary font-bold">28k+</p>
+<p class="font-body-sm text-body-sm text-text-secondary">Pin codes reached</p>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<p class="font-headline-md text-headline-md text-primary font-bold">99.4%</p>
+<p class="font-body-sm text-body-sm text-text-secondary">Delivery SLA</p>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<p class="font-headline-md text-headline-md text-primary font-bold">0 Fee</p>
+<p class="font-body-sm text-body-sm text-text-secondary">NDR monitoring</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-xl bg-surface">
+<img alt="About SheFaro Shipping Experience" class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700" src="assets/images/about-1.jpg"/>
+<div class="absolute bottom-4 left-4 right-4 p-space-md rounded-xl bg-surface/90 backdrop-blur-md shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-3 h-3 rounded-full bg-status-delivered animate-pulse"></span>
+<span class="font-label-md text-label-md text-text-primary">Pan-India Express Ready</span>
+</div>
+<span class="font-label-sm text-label-sm text-text-secondary uppercase">All 28 States</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. AUDIENCE SECTION -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-low/60">
+<div class="max-w-7xl mx-auto flex flex-col space-y-space-xl">
+<div class="text-center max-w-3xl mx-auto space-y-space-xs">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">Tailored Experience</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">Shipping Made for People and Businesses</h2>
+<p class="font-body-lg text-body-lg text-text-secondary">Whether you're dispatching a surprise present to family or orchestrating thousands of customer shipments, SheFaro streamlines the journey.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Individuals Card -->
+<div class="bg-surface rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="p-space-xl flex flex-col space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-md py-space-xs rounded-full bg-primary-fixed-dim text-on-primary-fixed font-label-md text-label-md">Personal</span>
+<span class="material-symbols-outlined text-primary text-[28px]">home</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">Individuals</h3>
+<p class="font-body-md text-body-md text-text-secondary">Send personal parcels across India with a simple shipping experience. No confusing manifests or complex courier agreements required.</p>
+</div>
+<div class="grid grid-cols-2 gap-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-status-delivered text-[18px]">check_circle</span>
+<span>Documents</span>
+</div>
+<div class="flex items-center gap-space-xs text-text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-status-delivered text-[18px]">check_circle</span>
+<span>Clothes</span>
+</div>
+<div class="flex items-center gap-space-xs text-text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-status-delivered text-[18px]">check_circle</span>
+<span>Gifts</span>
+</div>
+<div class="flex items-center gap-space-xs text-text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-status-delivered text-[18px]">check_circle</span>
+<span>Personal Parcels</span>
+</div>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center gap-space-xs text-primary font-label-lg text-label-lg group" data-path="send-a-parcel" href="signup.html">
+<span>Send a Parcel</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="h-64 overflow-hidden">
+<img alt="Individual shipping parcels with ease" class="w-full h-full object-cover" src="assets/images/about-2.jpg"/>
+</div>
+</div>
+<!-- Businesses & E-commerce Card -->
+<div class="bg-surface rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="p-space-xl flex flex-col space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-md py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md">Commercial</span>
+<span class="material-symbols-outlined text-secondary text-[28px]">storefront</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">Businesses &amp; E-commerce</h3>
+<p class="font-body-md text-body-md text-text-secondary">Manage business shipments through one platform with courier options, tracking and delivery support built directly into your operations.</p>
+</div>
+<div class="grid grid-cols-2 gap-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Order Management</span>
+</div>
+<div class="flex items-center gap-space-xs text-text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Shipment Tracking</span>
+</div>
+<div class="flex items-center gap-space-xs text-text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>NDR &amp; RTO Flow</span>
+</div>
+<div class="flex items-center gap-space-xs text-text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Returns Portal</span>
+</div>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center gap-space-xs text-secondary font-label-lg text-label-lg group" data-path="signup" href="signup.html">
+<span>Explore Business Shipping</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="h-64 overflow-hidden">
+<img alt="Business logistics and e-commerce fulfillment" class="w-full h-full object-cover" src="assets/images/about-3.jpg"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. WHAT WE PROVIDE (8 CORE CAPABILITIES) -->
+<section class="w-full px-gutter py-space-xl">
+<div class="max-w-7xl mx-auto flex flex-col space-y-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs max-w-2xl">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">Features &amp; Infrastructure</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">What We Provide</h2>
+<p class="font-body-lg text-body-lg text-text-secondary">Comprehensive digital logistics capabilities engineered to eliminate manual effort and supply chain blind spots.</p>
+</div>
+<div class="hidden md:flex items-center gap-space-xs text-text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-status-delivered text-[20px]">bolt</span>
+<span>Zero integration fee required</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Feature 1 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-space-md">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">inventory_2</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-text-primary mb-space-xs">Shipment Booking</h4>
+<p class="font-body-md text-body-md text-text-secondary">Create and coordinate domestic consignments with pinpoint weight precision and doorstep pickup schedule.</p>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Step-by-step</span>
+</div>
+<!-- Feature 2 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-space-md">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">hub</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-text-primary mb-space-xs">Multiple Courier Partners</h4>
+<p class="font-body-md text-body-md text-text-secondary">Access leading national carrier networks through a single unified shipping portal without distinct vendor contracts.</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Pan-India</span>
+</div>
+<!-- Feature 3 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-space-md">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[26px]">radar</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-text-primary mb-space-xs">Real-Time Tracking</h4>
+<p class="font-body-md text-body-md text-text-secondary">Live milestone tracking via AWB number or unique Reference ID with comprehensive transit event histories.</p>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-bold tracking-wider">24/7 Radar</span>
+</div>
+<!-- Feature 4 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-space-md">
+<div class="w-12 h-12 rounded-xl bg-status-delivered/10 flex items-center justify-center text-status-delivered">
+<span class="material-symbols-outlined text-[26px]">chat</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-text-primary mb-space-xs">WhatsApp Updates</h4>
+<p class="font-body-md text-body-md text-text-secondary">Automated, non-intrusive dispatch, out-for-delivery, and completed drop-off alerts delivered directly to phones.</p>
+</div>
+<span class="font-label-sm text-label-sm text-status-delivered uppercase font-bold tracking-wider">Instant Alerts</span>
+</div>
+<!-- Feature 5 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-space-md">
+<div class="w-12 h-12 rounded-xl bg-status-warning/10 flex items-center justify-center text-status-warning">
+<span class="material-symbols-outlined text-[26px]">rule</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-text-primary mb-space-xs">NDR &amp; RTO Management</h4>
+<p class="font-body-md text-body-md text-text-secondary">Proactive non-delivery alerts and same-day reattempt coordination to slash costly returns and buyer disputes.</p>
+</div>
+<span class="font-label-sm text-label-sm text-status-warning uppercase font-bold tracking-wider">Resolution Flow</span>
+</div>
+<!-- Feature 6 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-space-md">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed-dim flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">published_with_changes</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-text-primary mb-space-xs">Returns Management</h4>
+<p class="font-body-md text-body-md text-text-secondary">Standardized reverse logistics with pre-printed return kit delivery right to the customer's threshold.</p>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Doorstep Kit</span>
+</div>
+<!-- Feature 7 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-[26px]">layers</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-text-primary mb-space-xs">Dedicated Order Hub</h4>
+<p class="font-body-md text-body-md text-text-secondary">Clean filtering by status, bulk invoice and manifest generation, and single-click label printing.</p>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase font-bold tracking-wider">Unified Manifest</span>
+</div>
+<!-- Feature 8 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-space-md">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">support_agent</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-text-primary mb-space-xs">Customer Support</h4>
+<p class="font-body-md text-body-md text-text-secondary">Direct assistance through SheFaro Sahayta to resolve courier holds, claim disputes, and transit delays.</p>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Sahayta Desk</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. COURIER NETWORK SHOWCASE -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-low/50">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-6 flex flex-col space-y-space-md">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">Integrated Carriers</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">Multiple Courier Partners. One Platform.</h2>
+<p class="font-body-lg text-body-lg text-text-secondary">
+          SheFaro connects shipping needs with a growing network of courier partners across India. Choose the best partner for every single package based on automated SLA scoring, pin-code accessibility, and best rate.
+        </p>
+<!-- Partner Pills -->
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="px-space-md py-space-sm rounded-full bg-surface shadow-sm text-text-primary font-label-md text-label-md flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>Amazon Shipping
+          </span>
+<span class="px-space-md py-space-sm rounded-full bg-surface shadow-sm text-text-primary font-label-md text-label-md flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>DTDC
+          </span>
+<span class="px-space-md py-space-sm rounded-full bg-surface shadow-sm text-text-primary font-label-md text-label-md flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>Delhivery
+          </span>
+<span class="px-space-md py-space-sm rounded-full bg-surface shadow-sm text-text-primary font-label-md text-label-md flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>Shadowfax
+          </span>
+<span class="px-space-md py-space-sm rounded-full bg-surface shadow-sm text-text-primary font-label-md text-label-md flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>eKart
+          </span>
+<span class="px-space-md py-space-sm rounded-full bg-surface shadow-sm text-text-primary font-label-md text-label-md flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>XpressBees
+          </span>
+<span class="px-space-md py-space-sm rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[14px]">schedule</span>Blue Dart — Coming Soon
+          </span>
+</div>
+<div class="p-space-md rounded-xl bg-surface shadow-sm space-y-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+<span>Intelligent Courier Allocation</span>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary">
+            Our recommendation algorithm evaluates serviceability, previous dispatch time, and delivery performance for your sender and destination pin codes to suggest the optimal carrier instantly.
+          </p>
+</div>
+</div>
+<div class="lg:col-span-6">
+<div class="rounded-2xl overflow-hidden shadow-lg bg-surface">
+<img alt="Connected courier network across Indian transit hubs" class="w-full h-auto object-cover" src="assets/images/about-4.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. DOMESTIC SHIPPING CAPABILITY & PRICING -->
+<section class="w-full px-gutter py-space-xl">
+<div class="max-w-7xl mx-auto rounded-3xl bg-surface shadow-md p-space-lg lg:p-space-xl relative overflow-hidden">
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-primary/5 blur-2xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center relative">
+<div class="lg:col-span-7 space-y-space-md">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">Domestic Capability</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">Reliable Freight Handling for Every Shipment</h2>
+<p class="font-body-lg text-body-lg text-text-secondary">
+            From single lightweight envelopes to comprehensive commercial cartons, SheFaro provides dependable transit parameters tailored to domestic expectations.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md pt-space-xs">
+<div class="p-space-md rounded-xl bg-surface-container-low space-y-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">scale</span>
+<p class="font-title-md text-title-md text-text-primary">500g – 20kg</p>
+<p class="font-body-sm text-body-sm text-text-secondary">Flexible package weight limit</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low space-y-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">local_shipping</span>
+<p class="font-title-md text-title-md text-text-primary">6+ Carriers</p>
+<p class="font-body-sm text-body-sm text-text-secondary">Extensive Pan-India choices</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low space-y-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">gps_fixed</span>
+<p class="font-title-md text-title-md text-text-primary">End-to-End</p>
+<p class="font-body-sm text-body-sm text-text-secondary">Full milestone monitoring</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col items-center justify-center p-space-xl rounded-2xl bg-surface-container-low/70 text-center space-y-space-md">
+<span class="font-label-md text-label-md text-text-secondary uppercase">Transparent Pricing</span>
+<div class="space-y-space-xs">
+<p class="font-label-sm text-label-sm text-primary font-bold tracking-wider uppercase">Domestic Parcels</p>
+<p class="font-display text-display text-text-primary font-bold">Starting ₹100</p>
+<p class="font-body-sm text-body-sm text-text-secondary">No hidden weight penalties or unstated platform commissions.</p>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs w-full py-space-sm px-space-lg rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="rate-card" href="index.html#pricing">
+<span>View Rate Card</span>
+<span class="material-symbols-outlined text-[18px]">receipt_long</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. HOW SHEFARO WORKS (3 SIMPLE STEPS) -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-low/40">
+<div class="max-w-7xl mx-auto flex flex-col space-y-space-xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">Straightforward Workflow</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">How SheFaro Works</h2>
+<p class="font-body-lg text-body-lg text-text-secondary">Book, dispatch, and monitor parcels in three hassle-free steps.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg relative">
+<!-- Step 1 -->
+<div class="p-space-xl rounded-2xl bg-surface shadow-sm relative space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-display text-display text-primary/20 font-bold">01</span>
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">edit_note</span>
+</div>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-text-primary font-bold mb-space-xs">Book Shipment</h3>
+<p class="font-body-md text-body-md text-text-secondary">Enter parcel dimensions, destination pin codes, and recipient contact. Compare rates across available courier partners and confirm.</p>
+</div>
+<div class="pt-space-xs flex items-center gap-space-xs text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">timer</span> Instant AWB generation
+          </div>
+</div>
+<!-- Step 2 -->
+<div class="p-space-xl rounded-2xl bg-surface shadow-sm relative space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-display text-display text-primary/20 font-bold">02</span>
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">front_loader</span>
+</div>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-text-primary font-bold mb-space-xs">Pickup &amp; Dispatch</h3>
+<p class="font-body-md text-body-md text-text-secondary">A verified executive from the designated courier partner arrives at your pickup location to collect and safely manifest the consignment.</p>
+</div>
+<div class="pt-space-xs flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">door_front</span> Free doorstep pickup
+          </div>
+</div>
+<!-- Step 3 -->
+<div class="p-space-xl rounded-2xl bg-surface shadow-sm relative space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-display text-display text-primary/20 font-bold">03</span>
+<div class="w-10 h-10 rounded-full bg-status-delivered/20 flex items-center justify-center text-status-delivered">
+<span class="material-symbols-outlined text-[20px]">task_alt</span>
+</div>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-text-primary font-bold mb-space-xs">Track &amp; Deliver</h3>
+<p class="font-body-md text-body-md text-text-secondary">Follow step-by-step transit progression via live radar updates and automatic WhatsApp notifications right through to doorstep handover.</p>
+</div>
+<div class="pt-space-xs flex items-center gap-space-xs text-status-delivered font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">notifications_active</span> Live WhatsApp tracking
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. NDR & RTO SUPPORT -->
+<section class="w-full px-gutter py-space-xl">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-6 space-y-space-md">
+<span class="font-label-md text-label-md text-status-warning uppercase tracking-wider">Proactive Failure Prevention</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">Support When Delivery Doesn't Go as Planned</h2>
+<p class="font-body-lg text-body-lg text-text-secondary">
+          Non-deliveries happen for reasons beyond your control — customer unavailability, wrong address details, or closed gates. SheFaro steps in before failure turns into an RTO fee.
+        </p>
+<!-- 3-Stage Process Flow -->
+<div class="p-space-md rounded-2xl bg-surface shadow-sm space-y-space-md">
+<p class="font-label-lg text-label-lg text-text-primary font-bold">Active NDR Intervention Pipeline</p>
+<div class="grid grid-cols-3 gap-space-sm text-center">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[20px] mb-space-xs">directions_run</span>
+<span class="font-label-sm text-label-sm text-text-primary font-bold">Delivery Attempt</span>
+<span class="font-body-sm text-body-sm text-text-secondary mt-1">First try by carrier</span>
+</div>
+<div class="p-space-sm rounded-xl bg-status-warning/10 flex flex-col items-center">
+<span class="material-symbols-outlined text-status-warning text-[20px] mb-space-xs">warning</span>
+<span class="font-label-sm text-label-sm text-status-warning font-bold">NDR Raised</span>
+<span class="font-body-sm text-body-sm text-text-secondary mt-1">Instant alert logged</span>
+</div>
+<div class="p-space-sm rounded-xl bg-status-delivered/10 flex flex-col items-center">
+<span class="material-symbols-outlined text-status-delivered text-[20px] mb-space-xs">refresh</span>
+<span class="font-label-sm text-label-sm text-status-delivered font-bold">Reattempt / Action</span>
+<span class="font-body-sm text-body-sm text-text-secondary mt-1">Buyer phone verified</span>
+</div>
+</div>
+</div>
+<!-- Highlight Card -->
+<div class="p-space-md rounded-2xl bg-primary-fixed text-on-primary-fixed flex items-start gap-space-md shadow-sm">
+<span class="material-symbols-outlined text-primary text-[28px] mt-1">verified</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-primary-fixed font-bold">Free Non-Delivery Reports (NDR)</h4>
+<p class="font-body-md text-body-md text-on-primary-fixed/80 mt-space-xs">
+              Every SheFaro user receives instant failure notifications with single-click options to schedule reattempts, update recipient telephone numbers, or change address details before packages are marked Return-to-Origin.
+            </p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-6">
+<div class="rounded-2xl overflow-hidden shadow-lg bg-surface">
+<img alt="Courtesy delivery partner resolving non-delivery report" class="w-full h-auto object-cover" src="assets/images/about-5.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. SHEFARO RETURN SERVICE -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-low/50">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-6 order-2 lg:order-1">
+<div class="rounded-2xl overflow-hidden shadow-lg bg-surface">
+<img alt="Friendly courier receiving sealed return parcel with kit" class="w-full h-auto object-cover" src="assets/images/about-6.jpg"/>
+</div>
+</div>
+<div class="lg:col-span-6 order-1 lg:order-2 space-y-space-md">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">Reverse Logistics Made Simple</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">Simple Return Management</h2>
+<p class="font-body-lg text-body-lg text-text-secondary">
+          Handling returns shouldn't be an operational bottleneck. SheFaro automates consumer returns with dedicated pre-labeled packaging delivered straight to customer doors.
+        </p>
+<!-- 3-stage return workflow -->
+<div class="space-y-space-xs">
+<div class="p-space-md rounded-xl bg-surface shadow-sm flex items-start gap-space-md">
+<span class="w-7 h-7 rounded-full bg-primary-fixed text-primary font-label-md text-label-md flex items-center justify-center font-bold">1</span>
+<div>
+<p class="font-title-md text-title-md text-text-primary font-semibold">Book Return Order</p>
+<p class="font-body-sm text-body-sm text-text-secondary">Initiate the return ticket through your dashboard with automated customer address validation.</p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface shadow-sm flex items-start gap-space-md">
+<span class="w-7 h-7 rounded-full bg-primary-fixed text-primary font-label-md text-label-md flex items-center justify-center font-bold">2</span>
+<div>
+<p class="font-title-md text-title-md text-text-primary font-semibold">Return Kit Delivered</p>
+<p class="font-body-sm text-body-sm text-text-secondary">A sealed, high-security packaging pouch and shipping label is delivered to the customer.</p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface shadow-sm flex items-start gap-space-md">
+<span class="w-7 h-7 rounded-full bg-primary-fixed text-primary font-label-md text-label-md flex items-center justify-center font-bold">3</span>
+<div>
+<p class="font-title-md text-title-md text-text-primary font-semibold">Pickup &amp; Return Delivery</p>
+<p class="font-body-sm text-body-sm text-text-secondary">Partner courier collects the packed kit and delivers it directly back to your designated warehouse.</p>
+</div>
+</div>
+</div>
+<!-- Transparent Calculation Breakdown Card -->
+<div class="p-space-md rounded-2xl bg-surface shadow-sm space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-text-primary font-bold">Transparent Return Cost Formula</span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">Example Breakdown</span>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary">
+            Pricing based on Return Kit Delivery (500g slab) + Actual Item Return Freight + modest 20% platform handling fee.
+          </p>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-wrap items-center justify-between gap-space-xs font-label-md text-label-md">
+<span class="text-text-secondary">Kit Dispatch (₹49) + Freight (₹62) + Fee (20%)</span>
+<span class="text-primary font-bold text-headline-sm font-headline-sm">= ₹133</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. MISSION & VISION STATEMENTS -->
+<section class="w-full px-gutter py-space-xl">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-7 flex flex-col space-y-space-lg">
+<div class="space-y-space-xs">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">Our Purpose &amp; Horizon</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">Committed to Frictionless Indian Logistics</h2>
+</div>
+<!-- Mission -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm space-y-space-xs relative overflow-hidden">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[24px]">flag</span>
+<span class="font-label-lg text-label-lg font-bold uppercase">Our Mission</span>
+</div>
+<h3 class="font-title-md text-title-md text-text-primary font-bold">
+            Make shipping simpler, more transparent and easier to manage.
+          </h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            We exist to dismantle logistics friction across India. By offering fast, predictable, and hassle-free domestic shipping, we empower personal senders to stay connected with family while helping regional entrepreneurs expand without freight barriers.
+          </p>
+</div>
+<!-- Vision -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm space-y-space-xs relative overflow-hidden">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[24px]">visibility</span>
+<span class="font-label-lg text-label-lg font-bold uppercase">Our Vision</span>
+</div>
+<h3 class="font-title-md text-title-md text-text-primary font-bold">
+            Become India’s most trusted domestic shipping partner.
+          </h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Our vision is to become a trusted shipping partner by delivering reliable service, absolute billing transparency, and a better shipping experience for every parcel traversing the nation.
+          </p>
+</div>
+</div>
+<div class="lg:col-span-5">
+<div class="rounded-2xl overflow-hidden shadow-lg bg-surface">
+<img alt="Visualizing the future of connected shipping across India" class="w-full h-auto object-cover" src="assets/images/about-7.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. WHY SHEFARO SUMMARY (4 PILLARS) -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-low/60">
+<div class="max-w-7xl mx-auto flex flex-col space-y-space-xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">The Core Advantage</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">Why SheFaro</h2>
+<p class="font-body-lg text-body-lg text-text-secondary">Four bedrock principles guiding our technology, operations, and support.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Pillar 1 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm space-y-space-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">sentiment_satisfied</span>
+</div>
+<h4 class="font-title-md text-title-md text-text-primary font-bold">Simple Shipping</h4>
+<p class="font-body-md text-body-md text-text-secondary">
+            Intuitive parcel creation, transparent quotes with zero surprise surcharges, and instant pickup scheduling in under 2 minutes.
+          </p>
+</div>
+<!-- Pillar 2 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm space-y-space-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">alt_route</span>
+</div>
+<h4 class="font-title-md text-title-md text-text-primary font-bold">Multiple Courier Partners</h4>
+<p class="font-body-md text-body-md text-text-secondary">
+            Compare speed and rates among India's top delivery fleets. Keep complete autonomy over who handles your package.
+          </p>
+</div>
+<!-- Pillar 3 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm space-y-space-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">fact_check</span>
+</div>
+<h4 class="font-title-md text-title-md text-text-primary font-bold">Reliable Tracking</h4>
+<p class="font-body-md text-body-md text-text-secondary">
+            Unbroken milestone visibility with automatic WhatsApp alerts so senders and recipients always stay informed.
+          </p>
+</div>
+<!-- Pillar 4 -->
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm space-y-space-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-status-delivered/20 flex items-center justify-center text-status-delivered">
+<span class="material-symbols-outlined text-[24px]">support</span>
+</div>
+<h4 class="font-title-md text-title-md text-text-primary font-bold">Support When You Need It</h4>
+<p class="font-body-md text-body-md text-text-secondary">
+            Direct Sahayta assistance and automated NDR resolution mechanisms that act swiftly to prevent delivery failures.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 11. FINAL CALL-TO-ACTION -->
+<section class="w-full px-gutter py-space-xl">
+<div class="max-w-7xl mx-auto rounded-3xl bg-surface shadow-xl overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<div class="lg:col-span-7 p-space-xl lg:p-space-xl space-y-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-status-delivered/10 text-status-delivered">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="font-label-sm text-label-sm uppercase font-bold tracking-wider">Fast &amp; Dependable</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary font-bold">
+            Ready to Ship with SheFaro?
+          </h2>
+<p class="font-body-lg text-body-lg text-text-secondary max-w-xl">
+            Send a parcel, manage your shipments and track deliveries through one simple platform. Experience how stress-free Indian logistics can be today.
+          </p>
+<div class="pt-space-xs flex flex-wrap items-center gap-space-md">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-secondary transition-all" data-path="send-a-parcel" href="signup.html">
+<span>Send a Parcel</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-full bg-surface-container-low text-primary font-label-lg text-label-lg hover:bg-surface-container transition-all" data-path="tracking" href="tracking.html">
+<span class="material-symbols-outlined text-[18px]">share_location</span>
+<span>Track Shipment</span>
+</a>
+</div>
+<div class="pt-space-sm flex items-center gap-space-md text-text-secondary font-body-sm text-body-sm">
+<span class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span> Free Pickup
+            </span>
+<span class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span> Real-time Alerts
+            </span>
+<span class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span> Multi-Carrier
+            </span>
+</div>
+</div>
+<div class="lg:col-span-5 h-full min-h-[320px] relative overflow-hidden">
+<img alt="Smiling customer holding securely delivered parcel with celebration badge" class="w-full h-full object-cover" src="assets/images/about-8.jpg"/>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_-2px_10px_-2px_rgba(2,132,199,0.04)]"><div class="w-full px-gutter py-space-xl"><div class="grid grid-cols-6 gap-space-xl mb-space-xl"><div class="col-span-2 space-y-space-md"><a class="inline-block" href="index.html"><img alt="SheFaro" class="h-8 w-auto object-contain" src="assets/images/logo.png"/></a><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Fast &amp; affordable multi-carrier shipping platform for individuals and businesses across India.</p><div class="space-y-space-xs pt-space-xs font-body-sm text-body-sm text-on-surface-variant"><p class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary mt-0.5">location_on</span><span>Duttapulia, Ranaghat-II, Nadia, West Bengal 741501</span></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary">call</span><a href="tel:+919475220019">+91 94752 20019</a></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary">mail</span><a href="mailto:help@shefaro.in">help@shefaro.in</a></p></div></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Company</h4><ul class="space-y-space-sm font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="index.html">Home</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="about.html">About</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Shipping</h4><ul class="space-y-space-sm font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="tracking.html">Tracking</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="signup.html">Send a Parcel</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Support</h4><ul class="space-y-space-sm font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="help.html">Help</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="help.html#contact">Contact</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Account &amp; Legal</h4><ul class="space-y-space-sm font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="login.html">Login</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="signup.html">Sign Up</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Terms</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Refund Policy</a></li></ul></div></div><div class="pt-space-lg flex items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2026 SheFaro. All Rights Reserved.</p><span class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px] text-status-delivered">verified_user</span>Multi-Carrier Reliability</span></div></div></footer></body></html>
