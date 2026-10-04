@@ -1,0 +1,7 @@
+{
+  "name": "SheFaro - Multi-Carrier Shipping & Logistics",
+  "description": "Multi-carrier shipping platform across India for parcel delivery, tracking, and courier management.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
