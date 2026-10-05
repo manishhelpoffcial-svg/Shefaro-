@@ -8,7 +8,8 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Serve static assets from assets directory
+// Serve static assets from public/assets or assets directory
+app.use('/assets', express.static(path.join(__dirname, 'public', 'assets')));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 // Route handlers for explicit paths
